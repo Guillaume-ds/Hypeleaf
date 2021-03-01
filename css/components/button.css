@@ -1,0 +1,23 @@
+.btn-slide{
+  color:rgba(245,245,245,0.95);
+  border: 1px solid rgba(245,245,245,1);
+  border-radius:5px;
+  margin-top:50px;
+  padding: 5px;
+  font-size: 40px;
+  background-color:rgba(40,40,40,0.3);
+}
+
+.btn-slide:hover{
+  color:rgba(245,245,245,0.95);
+  text-decoration: none;
+  animation-name: slidein;
+  animation-duration : 1s;
+  animation-fill-mode: forwards;
+  }
+
+@keyframes slidein{
+  from{background-color:rgba(40,40,40,0.3);}
+  to{background-color:rgba(245,245,245,0.1);}
+}
+
