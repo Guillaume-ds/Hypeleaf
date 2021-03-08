@@ -2,6 +2,9 @@
 @import url("components/cards.css");
 @import url("components/button.css");
 @import url("components/citations.css");
+@import url("components/blockquote.css");
+@import url("components/footer.css");
+@import url("components/products.css");
 
 body{
 	font-family: Helvetica;
