@@ -1,11 +1,22 @@
-.card-head{
+.card-head{	
 	background-image: linear-gradient(rgba(40,40,40,0.6),rgba(40,40,40,0.6)),url('../../img/foret.jpg');
 	background-size: cover;
 	height:1000px;
 	text-align: center;
 	width: 100%;
-	padding-top: 200px;
-	color: rgba(250,250,250,1);
+	padding-top: 200px;	
+	animation: apparition 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes apparition {
+	from{
+		color: color: rgba(250,250,250,0.2);
+	}
+	to{
+		
+		color: rgba(250,250,250,1);
+	}
 }
 
 .card-head h1{
