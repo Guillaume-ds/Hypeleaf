@@ -1,30 +1,49 @@
 .blockquote-wrapper {
    display: flex;
-   height: 30vh;
 }
 
 /* Blockquote main style */
+@media(min-width: 1400px){
+    .blockquote {
+        max-width: 35%;
+    }
+    #Bleft{
+        margin-left: 15%;
+    }
+    #Bright{
+        margin-left: 55%;
+    }
+}
+
+
+@media(max-width: 1399px){
+    .blockquote {
+        max-width: 50%;
+    }
+    #Bleft{
+        margin-left: 10%;
+    }
+    #Bright{
+        margin-left: 45%;
+    }
+}
+
+
 .blockquote {
     position: relative;
-    font-family: 'Helvetica', sans-serif;
-    max-width: 30%;
+    font-family: 'Helvetica', sans-serif;    
     margin-top:0px;
     align-self: center;
 }
 
-#Bleft{
-    margin-left: 15%;
-}
-#Bright{
-    margin-left: 55%;
-}
+
 
 /* Blockquote header */
 .blockquote h1 {
     font-family: 'Helvetica', cursive;
     position: relative; /* for pseudos */
     color: rgb(70,70,90);
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: normal;
     line-height: 1;
     margin: 0;
