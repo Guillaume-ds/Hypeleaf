@@ -1,5 +1,6 @@
 .blockquote-wrapper {
    display: flex;
+   margin-top: 100px;
 }
 
 /* Blockquote main style */

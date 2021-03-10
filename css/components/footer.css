@@ -8,6 +8,16 @@ footer{
 	margin-top: 100px;
 }
 
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: grey;
+}
+
 .block-text p {
 	display: inline-flex;
 	justify-content: space-around;
