@@ -11,7 +11,7 @@
 
 
 
-@media(min-width: 1400px){
+@media(min-width: 800px){
 	#logo{
 		margin-left:2%;
 		margin-right: 8%;
@@ -27,7 +27,7 @@
 	}
 }
 
-@media(max-width: 1399px){
+@media(max-width: 799px){
 	#logo{
 		margin-left:1%;
 		margin-right: 0%;
