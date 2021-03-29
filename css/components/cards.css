@@ -189,3 +189,12 @@
 	width: 100%;
 	margin-top: 150px;
 }
+
+.card-video{
+	text-align: center;
+	margin-top: 150px;
+}
+.card-video video{
+	box-shadow: 2px 5px 10px 7px rgba(140,140,140,0.9);
+	border-radius: 5px;
+}
